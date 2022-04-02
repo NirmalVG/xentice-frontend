@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+@media (min-width: 780px) {
+    #offcanvasNavbar {
+        width: 16%;
+    }
+}
+
+@media (max-width: 780px) {
+    .nav-link {
+        display: none;
+    }
+    .footer-hide {
+        display: none;
+    }
+    .rule {
+        display: none;
+    }
+    .banner-card {
+        display: none;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+    background: none;
+}
+
+.navbar-toggler:hover {
+    background: none;
+}
+
+.modal-list {
+    border: none;
+    font-size: 18px;
+    margin: 6px 0px 6px 0px;
+}
+
+.modal-list-main {
+    border: none;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.section-width {
+    margin: 0px;
+}
+
+.img-section {
+    background-color: #012b72;
+    height: 100px;
+}
+
+.img-size {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-size {
+    width: 25px;
+    height: 25px;
+}
+
+.icon-section {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.zoom {
+    transition: transform 0.2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.icon-group {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.service-text {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.nav-link {
+    flex-direction: row;
+}
+
+.footer-row {
+    padding-top: 30px;
+    background-color: #012b72;
+}
+
+.footer-text {
+    color: #a0b2ea;
+    cursor: pointer;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    text-align: end;
+}
+
+.banner-card {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.ad-main {
+    background-color: #eeeeee;
+    height: auto;
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+}
+
+.img-main {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.form-sec {
+    margin: 10px;
+}
